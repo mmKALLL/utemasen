@@ -16,7 +16,6 @@ server.on('request', (request, response) => {
 	console.log(body);
 	response.writeHead(200, {
                 'Transfer-Encoding': 'chunked',
-                'Content-Length': Buffer.byteLength(body),
                 'Content-Type': 'text/plain;charset=UTF-8',
 		'Connection': 'close',
         });
