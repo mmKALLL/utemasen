@@ -2,4 +2,5 @@
   "trailingSlash": true,
   "rewrites": [
     { "source": "/", "destination": "/api/server" }
+  ]
 }
