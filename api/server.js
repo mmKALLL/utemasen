@@ -29,5 +29,5 @@ server.on('request', (request, response) => {
     });
 }).listen(8083);
 
-exports.default = server
+module.exports = server
 
