@@ -28,3 +28,6 @@ server.on('request', (request, response) => {
         response.end();
     });
 }).listen(8083);
+
+exports.default = server
+
