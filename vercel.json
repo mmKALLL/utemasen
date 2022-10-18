@@ -1,6 +1,5 @@
 {
-  "trailingSlash": true,
   "rewrites": [
-    { "source": "/aa/", "destination": "/api/server" }
+    { "source": "*", "destination": "/api/server" }
   ]
 }
